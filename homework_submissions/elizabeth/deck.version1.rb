@@ -1,8 +1,8 @@
-def deal(deck, hand, num_cards)
-  (0..num_cards-1).each do |i|
-    hand<<deck[0]
+def deal (deck,hand)
+  2.times do
+      hand<<deck
   end  #this doesn't work when more than 3 players.
-  deck.shift(num_cards)
+  deck.shuffle
 end
 
 deck = [
