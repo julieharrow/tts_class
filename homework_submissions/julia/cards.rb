@@ -11,4 +11,17 @@ deck = []
   puts deck.join(",")
 
 puts "Choose how many players?"
-num_players = gets.chomp.to_i
+players = gets.chomp.to_i
+
+def deal_cards (players, num_cards, deck)
+  num_cards.times do
+  for i in 1..num_players
+    puts "Player #{i}, your card is #{deck.pop}"
+  end
+end
+end
+
+deal_cards(num_players)
+
+deal_cards(players,2,deck)
+p deck
