@@ -1,0 +1,31 @@
+
+.class_test {
+    color: yellow;
+    font-size: 30px;
+}
+
+#id_test {
+    color: green;
+    font-size: 10px;
+}
+
+.hover_test:hover {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:visited {
+    background: black;
+    color: pink;
+}
+
+
+h1 {
+  font-family: Helvetica
+}
+
+p {
+  border-style: dotted;
+  padding:auto;
+  margin:auto;
+}
