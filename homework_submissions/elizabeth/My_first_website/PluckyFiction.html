@@ -5,25 +5,34 @@
     <title>Plucky Fiction</title>
   </head>
   <body>
-    <header class="main-header" role="banner">
-      <img src="pluck.jpg" alt="Banner Image"/>
-    </header>
+    <form class="sign-up" action="index.html" method = "post" position= "right">
+          <input  type="text" name="username" placeholder="username"/>
+          <input  type="text" name="password" placeholder="password"/>
+              <button class=sign-up-button: type="submit">Submit</button>
+          <br>
+        <span>or Sign In With:</span>
+          <img src="twitter.jpg" alt="twitter signin button" width="30px">
+          <img src="facebook.png" alt="facebook signin button" width="30px">
+          <br>
+        </form>
+
+     <h1>Plucky NC</h1>
+    <span class="banner_h">
+        <img src="map2.jpg">
+     </span>
           <div>
-            <a href="PluckyHome.html">Plucky Home</a>
-              <a href="PluckyFiction.html">Plucky Fiction</a>
-                <a href="PluckyNonFiction.html">Plucky NonFiction</a>
-                <a href="PluckySubmissions.html">Plucky Submissions</a>
-                  <a href="PluckyEditing.html">Plucky Editing</a>
-          <div>
-<br>
+            <ul class="sidenav">
+              <li><a href="pluckyhome.html">Plucky Home</a></li>
+              <li><a href="pluckynonfiction.html">Plucky Nonfiction</a></li>
+              <li><a href="pluckyfiction.html">Plucky Fiction</a></li>
+              <li><a href="pluckyblogs.html">Pluck Blogs</a></li>
+              <li><a href="pluckygeolocation.html">Plucky Groups</a></li>
+            </ul>
 </div>
-    <h1>Plucky Fiction</h1>
 
-    <h3>Find Fictional Books Based on Location Services</h3>
-    <a href="https://www.amazon.com/Serena-Novel-P-S-Ron-Rash/dp/0061470848/ref=sr_1_2?ie=UTF8&qid=1476889055&sr=8-2&keywords=serena"> <img src="SampleBook1.jpg" alt="Ron Rash Serena" style="width:180px;height:228px;"></a>
-    <a href="https://www.amazon.com/dp/B000FCKH9W/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"> <img src="SampleBook2.jpg" alt="NicholasSparks At First Sight" style="width:180px;height:228px;"></a>
 <br>
-
-  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDEuBKJgk7Cv1roHrZUQuea2SoSXJdCaw8'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://addmap.net/'>add a google map to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=ca41dbd3aac9e52634c012a90360658604b37ed2'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:2,center:new google.maps.LatLng(28.99757248283219,-27.128984375000016),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.99757248283219,-27.128984375000016)});infowindow = new google.maps.InfoWindow({content:'<strong>Pluck Up</strong><br><br>27511 <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<br>
+<iframe src="http://createaclickablemap.com/map.php?&id=53703&online=true" width="900" height="525" style="border: none;"></iframe>
+<script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
   </body>
 </html>
