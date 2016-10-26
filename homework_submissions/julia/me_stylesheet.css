@@ -1,0 +1,27 @@
+*{
+  background:yellow;
+}
+
+h1{
+color: blue;
+}
+
+p{
+color: green;
+}
+
+h2{
+  color: purple;
+  font-style: italic;
+}
+
+h3{
+  font-weight: bolder;
+  color: brown;
+}
+
+ul{
+  color: red;
+  font-style: oblique;
+  font-size: 90;
+}
