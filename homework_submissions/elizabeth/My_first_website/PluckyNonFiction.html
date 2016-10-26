@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="pluck.css">
+    <title>Pluck NonFiction</title>
+  </head>
+  <body>
+    <span class="banner_h">
+        <img src="map2.jpg">
+     </span>
+    <ul class="sidenav">
+      <li><a class="active" href="pluckyhome.html">Plucky Home</a></li>
+      <li><a href="pluckynonfiction.html">Plucky Nonfiction</a></li>
+      <li><a href="pluckyfiction.html">Plucky Fiction</a></li>
+      <li><a href="pluckyblogs.html">Pluck Blogs</a></li>
+      <li><a href="pluckygeolocation.html">Plucky Groups</a></li>
+    </ul>
+    <h1>Plucky NonFiction</h1>
+    <br>
+    <h3> Click the map to find books based on location.</h3>
+    <br>
+   <a href="https://www.amazon.com/dp/B00SBQBDZG/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"> <img src="AmazingPlace.jpg" alt="Amazing Place" style="width:180px;height:228px;"></a>
+   <a href="https://www.amazon.com/dp/B002LATV16/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"> <img src="Onesecondafter.jpg" alt="One Second AFter" style="width:180px;height:228px;"></a>
+<br>
+<br>
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDEuBKJgk7Cv1roHrZUQuea2SoSXJdCaw8'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://addmap.net/'>add a google map to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=ca41dbd3aac9e52634c012a90360658604b37ed2'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:2,center:new google.maps.LatLng(28.99757248283219,-27.128984375000016),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.99757248283219,-27.128984375000016)});infowindow = new google.maps.InfoWindow({content:'<strong>Pluck Up</strong><br><br>27511 <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  </body>
+</html>
